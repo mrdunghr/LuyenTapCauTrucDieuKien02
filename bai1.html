@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Luyện tập cấu trúc điều kiện 02</title>
+    <script src="js.js"></script>
+</head>
+<body>
+<span>Chuyển từ độ C sang độ F</span> <br>
+<input type="text" id="doC" value=""/>
+<input type="button" id="btnconver" onclick="CtoF()" value="Conver"/> <br>
+<p id="resual">Độ F</p>
+
+<span>Chuyển từ Mét sang Feet</span><br>
+<input type="text" id="Met" value=""/>
+<input type="button" id="btnconverMet" onclick="MetToFeet()" value="Conver"/> <br>
+<p id="resuaMetl">Feet</p>
+
+<span>TÍnh diện tích hình vuông khi biết cạnh A</span>
+<input type="text" id="canhA" value=""/>
+<input type="button" id="sA" onclick="TinhDienTichHV()" value="  S  "/> <br>
+<p id="resuaS">Diện Tích</p>
+
+<span>Tính diện tích hình  chữ nhật khi biết 02 cạnh A, B.</span>
+<input type="text" id="canhAA" value=""/>
+<input type="text" id="canhBB" value=""/>
+<input type="button" id="sCN" onclick="TinhDienTichCN()" value="  S  "/> <br>
+<p id="resuaScn">Diện Tích</p>
+
+<span>Tính diện tích tam giác vuông khi biết 02 cạnh kề A, B.</span>
+<input type="text" id="canhAAA" value=""/>
+<input type="text" id="canhBBB" value=""/>
+<input type="button" id="s3giac" onclick="TinhDienTich3giac()" value="  S  "/> <br>
+<p id="resuaS3giac">Diện Tích</p>
+
+<span>Giải phương trình bậc 1..</span>
+<input type="text" id="soA" value=""/>
+<input type="text" id="soB" value=""/>
+<input type="button" id="ketqua5a" onclick="tinhPhuongTrinhBacNhat()" value="  Tính  "/> <br>
+<p id="resuaPT">Phương Trình</p>
+
+<span>Giải phương trình bậc 2..</span>
+<input type="text" id="soAA" value=""/>
+<input type="text" id="soBB" value=""/>
+<input type="text" id="soCC" value=""/>
+<input type="button" id="ketqua4a" onclick="tinhPhuongTrinhBacHai()" value="  Tính  "/> <br>
+<p id="resuaPT2">Phương Trình</p>
+<p Id="x1"></p>
+<p Id="x2"></p>
+
+<span>Kiểm tra xem một số nhập vào có phải là tuổi của một người không. Một số nguyên là tuổi của một người khi nhỏ 120 và lơn hơn 0</span><br>
+<input type="text" id="Tuoi" value=""/>
+<input type="button" id="tinhtuoi" onclick="tinhtuoi()" value="  Tính  "/> <br>
+<p id="age">Tuổi</p>
+
+<span> Kiểm tra xem 3 số thực (a,b,c) nhập vào có phải là cạnh của một tam giác. Điều kiện để a,b,c là cạnh của một tam giác là:</span><br>
+<input type="text" id="canh1" value=""/>
+<input type="text" id="canh2" value=""/>
+<input type="text" id="canh3" value=""/>
+<input type="button" id="checked" onclick="kiemtra3canhtamgiac()" value="  Kiemtra  "/> <br>
+<p id="ketqua3giac">3giac</p>
+
+<span>Viết chương trình tính giá điện</span><br>
+<input type="text" id="soDien" value=""/>
+<input type="button" id="checkead" onclick="tinhTienDien()" value="  tính  "/> <br>
+<p id="hienthi"></p>
+
+<span>Viết chương trình tính thuế thu nhập cá nhân. </span><br>
+<input type="text" id="thuetncn" value=""/>
+<input type="button" id="checkthue" onclick="thuetncn()" value="  tính  "/> <br>
+<p id="showthue"></p>
+
+<span>Viết chương trình tính lãi ngân hàng (lãi mẹ đẻ lãi con) khi biết số tiền ban đầu, số tháng cho vay và lãi xuất hàng tháng</span> <br>
+<input type="text" id="tienbandau" value="so tien ban dau"><br>
+<!--<input type="text" id="sothangchovay" value="so thang cho vay"><br>-->
+<p>lãi suất cố định 12 %/năm trong thời hạn 1 năm (12 tháng)</p>
+<input type="button" id="checkthu1e" onclick="tienlainganhang()" value="  tính  "/> <br>
+<p id="hangthang"> Số tiền gốc trả hàng tháng</p><br>
+<p id="thangdau"> Số tiền lãi phải trả tháng đầu</p><br>
+<p id="thanghai"> Số tiền lãi trả tháng thứ 2</p><br>
+
+
+
+</body>
+</html>
